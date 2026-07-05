@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Het | 3D Web Developer Portfolio</title>
+  <!-- Google Fonts & Font Awesome -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="../CSS/Het.Portfolio.css">
+</head>
+
+<body>
+
+  <div id="canvas-container"></div>
+  <div class="content">
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">HET.DEV</div>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <div class="hero-badge">
+              <i class="fas fa-cube"></i> 3D Interactive Portfolio
+            </div>
+            <h1>Hi, I'm <span class="highlight">Het</span><br>Web Developer & 3D Creator</h1>
+            <p>Crafting immersive web experiences with cutting-edge 3D animations, modern frameworks, and creative code.
+            </p>
+            <div class="btn-group">
+              <a href="#contact" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Let's Connect</a>
+              <a href="#" class="btn btn-outline" id="resumeBtn"><i class="fas fa-file-alt"></i> Resume</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about">
+        <div class="container">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-grid">
+            <div class="about-text glass-card" style="padding: 2rem;">
+              <p>I'm <strong>Het</strong>, a passionate Full Stack Web Developer with a strong foundation in modern web
+                technologies. I specialize in HTML, CSS, JavaScript, React.js, Node.js, and MySQL, building responsive,
+                user-friendly, and scalable web applications from front-end interfaces to back-end functionality.</p>
+              <p>As a fresher, I'm dedicated to continuously improving my skills and turning ideas into real-world
+                projects. I enjoy writing clean, maintainable code, solving problems, and creating seamless digital
+                experiences. With experience using Git & GitHub for version control and Adobe Photoshop & Illustrator
+                for UI design, I combine technical knowledge with creativity to build impactful web solutions. I'm
+                always eager to learn, collaborate, and contribute to meaningful projects while growing as a
+                professional developer.</p>
+              <div class="skill-list">
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">CSS</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">React.js</span>
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">MySql</span>
+                <span class="skill-tag">github</span>
+                <span class="skill-tag">Photoshop</span>
+                <span class="skill-tag">illustrator</span>
+              </div>
+            </div>
+            <div class="about-text glass-card" style="padding: 2rem;">
+              <p><i class="fas fa-graduation-cap" style="color: #60a5fa; margin-right: 0.8rem;"></i> Bachelor of
+                Computer Applications (BCA) </p>
+              <p><i class="fas fa-award" style="color: #60a5fa; margin-right: 0.8rem;"></i> Full Stack Web Developer
+              </p>
+              <p><i class="fas fa-globe" style="color: #60a5fa; margin-right: 0.8rem;"></i> Available for Freelance
+                Projects & Remote Collaborations </p>
+              <p><i class="fas fa-heart" style="color: #f472b6; margin-right: 0.8rem;"></i> Passionate About Building
+                Modern, Responsive & Scalable Web Applications </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <div class="container">
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-icon"><i class="fas fa-cube"></i></div>
+              <div class="project-info">
+                <h3>3D Immersive Gallery</h3>
+                <p>Interactive WebGL art gallery with dynamic lighting and smooth navigation using Three.js.</p>
+                <div class="tech-stack"><span>Three.js</span><span>WebGL</span><span>GSAP</span></div>
+                <div class="project-links"> 
+                  <a href="#"><i class="fab fa-github"></i> Code</a>
+                  <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+              <div class="project-info">
+                <h3>AI Analytics Dashboard</h3>
+                <p>Real-time data visualizer with dark mode, drag-and-drop widgets & predictive insights.</p>
+                <div class="tech-stack"><span>React</span><span>D3.js</span><span>Firebase</span></div>
+                <div class="project-links"><a href="#"><i class="fab fa-github"></i> Repo</a><a href="#"><i
+                      class="fas fa-external-link-alt"></i> Preview</a></div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-icon"><i class="fas fa-vr-cardboard"></i></div>
+              <div class="project-info">
+                <h3>MetaScape VR</h3>
+                <p>WebXR experience that blends 3D environments with interactive storytelling.</p>
+                <div class="tech-stack"><span>Three.js</span><span>WebXR</span><span>Blender</span></div>
+                <div class="project-links"><a href="#"><i class="fab fa-github"></i> Source</a><a href="#"><i
+                      class="fas fa-external-link-alt"></i> Experience</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <div class="container">
+          <h2 class="section-title">Let's Work Together</h2>
+          <div class="contact-container">
+            <div class="contact-info glass-card" style="padding: 2rem;">
+              <div class="contact-item"><i class="fas fa-envelope"></i> <span>nariyahet49@gmail.com</span></div>
+              <div class="contact-item"><i class="fab fa-github"></i> <span>github.com/hetcreates</span></div>
+              <div class="contact-item"><i class="fab fa-linkedin"></i>
+                <span>https://www.linkedin.com/in/het-nariya-ba4842340/</span></div>
+              <div class="contact-item"><i class="fas fa-map-marker-alt"></i> <span>Remote / Worldwide</span></div>
+            </div>
+            <form id="contactForm" class="contact-form glass-card" style="padding: 2rem;">
+              <input type="text" id="name" placeholder="Your Name" required>
+              <input type="email" id="email" placeholder="Email Address" required>
+              <textarea rows="4" id="message" placeholder="Tell me about your project or idea..."></textarea>
+              <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="social-links">
+        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <p>© 2026 Het — 3D Web Developer.</p>
+    </footer>
+  </div>
+
+  <script src="../JS/Het.Portfolio.js"></script>
+</body>
+
+</html>
